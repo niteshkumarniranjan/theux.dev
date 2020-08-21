@@ -1,0 +1,21 @@
+@tailwind base;
+
+@tailwind components;
+
+html,
+body {
+  text-rendering: optimizeLegibility;
+  background-color: #121212;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.link {
+  box-shadow: 0px 0px 0px 0px #d70652 inset;
+  @apply transition-all ease-in-out duration-150;
+}
+
+.link:hover {
+  box-shadow: 0px -17px 0px 0px #d70652 inset;
+}
+
+@tailwind utilities;

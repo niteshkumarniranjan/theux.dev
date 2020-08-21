@@ -10,6 +10,11 @@
   "dependencies": {
     "next": "9.5.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-transition-group": "^4.4.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/ui": "^0.5.0",
+    "tailwindcss": "^1.7.3"
   }
 }
