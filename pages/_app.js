@@ -32,13 +32,13 @@ function MyApp({ Component, pageProps }) {
         />
         <link rel="shortcut icon" href="/favicon.ico?v=qAMqgwqpdv" />
         <meta name="msapplication-TileColor" content="#000000" />
-        <meta name="theme-color" content="#121212"></meta>
+        <meta name="theme-color" content="#121212" />
       </Head>
-      <div className="flex flex-col min-h-screen overflow-x-hidden font-sans antialiased text-white bg-night-700">
+      <div className="min-h-screen font-sans antialiased text-white bg-night-700">
         <Header />
-        <div className="flex-1" style={{ marginTop: 98 }}>
+        <main className="px-6 pb-10" style={{ paddingTop: 128 }}>
           <Component {...pageProps} />
-        </div>
+        </main>
       </div>
     </>
   )

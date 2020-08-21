@@ -53,13 +53,13 @@ export default function Header() {
   }, [])
 
   return (
-    <div
+    <header
       className={`${
         scrollPosition > 0 ? "border-transparent-1" : ""
-      } fixed inset-x-0 top-0 z-10 border-b border-transparent`}
+      } fixed inset-x-0 top-0 z-10 border-b border-transparent px-6`}
       style={{ backdropFilter: "blur(5px)" }}
     >
-      <div className="container flex items-center justify-between px-6 py-8 mx-auto">
+      <div className="flex items-center justify-between py-8 mx-auto lg:mt-10 max-w-7xl">
         <Link href="/">
           <a>
             <LogoIcon className="flex-shrink-0 h-5" />
@@ -160,32 +160,32 @@ export default function Header() {
         </nav>
         <nav className="hidden space-x-4 lg:flex">
           <Link href="/">
-            <a className="text-sm font-medium tracking-wider uppercase link">
+            <a className="text-sm font-medium tracking-wider text-white text-opacity-75 uppercase link hover:text-white">
               Home
             </a>
           </Link>
           <Link href="/blog">
-            <a className="text-sm font-medium tracking-wider uppercase link">
+            <a className="text-sm font-medium tracking-wider text-white text-opacity-75 uppercase link hover:text-white">
               Blog
             </a>
           </Link>
           <Link href="/projects">
-            <a className="text-sm font-medium tracking-wider uppercase link">
+            <a className="text-sm font-medium tracking-wider text-white text-opacity-75 uppercase link hover:text-white">
               Projects
             </a>
           </Link>
           <Link href="/journal">
-            <a className="text-sm font-medium tracking-wider uppercase link">
+            <a className="text-sm font-medium tracking-wider text-white text-opacity-75 uppercase link hover:text-white">
               Journal
             </a>
           </Link>
           <Link href="/contact">
-            <a className="text-sm font-medium tracking-wider uppercase link">
+            <a className="text-sm font-medium tracking-wider text-white text-opacity-75 uppercase link hover:text-white">
               Contact
             </a>
           </Link>
         </nav>
       </div>
-    </div>
+    </header>
   )
 }
