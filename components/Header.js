@@ -59,7 +59,11 @@ export default function Header() {
       } fixed inset-x-0 top-0 z-10 border-b border-transparent px-6`}
       style={{ backdropFilter: "blur(5px)" }}
     >
-      <div className="flex items-center justify-between py-8 mx-auto lg:mt-10 max-w-7xl">
+      <div
+        className={`flex items-center justify-between py-8 mx-auto max-w-7xl transition-all duration-200 ${
+          scrollPosition < 10 ? "lg:pt-16" : ""
+        }`}
+      >
         <Link href="/">
           <a>
             <LogoIcon className="flex-shrink-0 h-5" />

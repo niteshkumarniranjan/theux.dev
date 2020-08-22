@@ -10,6 +10,8 @@ module.exports = {
         github: "rgba(62,62,62,.1)",
         "transparent-1": "rgba(255, 255, 255, 0.1)",
         night: {
+          300: "#b5b5b5",
+          600: "#171717",
           700: "#121212",
           800: "#0a0a0a",
         },
@@ -24,6 +26,7 @@ module.exports = {
   },
   variants: {
     scale: ["responsive", "hover", "focus", "active"],
+    textOpacity: ["responsive", "hover", "focus", "group-hover"],
   },
   plugins: [require("@tailwindcss/ui")],
 }
