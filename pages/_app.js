@@ -1,6 +1,7 @@
 import Head from "next/head"
 import "../assets/css/tailwind.css"
 import Header from "../components/Header"
+import Footer from "../components/Footer"
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -34,11 +35,12 @@ function MyApp({ Component, pageProps }) {
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="theme-color" content="#121212" />
       </Head>
-      <div className="min-h-screen font-sans antialiased text-white bg-night-700">
+      <div className="flex flex-col min-h-screen font-sans antialiased text-white bg-night-700">
         <Header />
-        <main className="px-6 pb-10" style={{ paddingTop: 128 }}>
+        <main className="flex-1 px-6 pb-10" style={{ paddingTop: 128 }}>
           <Component {...pageProps} />
         </main>
+        <Footer />
       </div>
     </>
   )

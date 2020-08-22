@@ -4,6 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        twitter: "rgba(0,145,255,.1)",
+        insta: "rgba(198,104,207,.2)",
+        dribble: "rgba(198,104,207,.2)",
+        github: "rgba(62,62,62,.1)",
         "transparent-1": "rgba(255, 255, 255, 0.1)",
         night: {
           700: "#121212",
