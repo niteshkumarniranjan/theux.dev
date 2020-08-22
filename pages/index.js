@@ -117,7 +117,7 @@ export default function Home() {
           <div className="flex flex-wrap -mx-6">
             <div className="flex w-full p-6 lg:w-1/3">
               <div className="p-4 rounded-lg bg-night-600">
-                <span className="inline-block mb-2 text-xs font-bold tracking-wide">
+                <span className="inline-block mb-2 text-xs font-bold tracking-wide uppercase">
                   Apr 12, 2019
                 </span>
                 <h3 className="text-lg font-semibold">
@@ -151,7 +151,7 @@ export default function Home() {
             </div>
             <div className="flex w-full p-6 lg:w-1/3">
               <div className="p-4 rounded-lg bg-night-600">
-                <span className="inline-block mb-2 text-xs font-bold tracking-wide">
+                <span className="inline-block mb-2 text-xs font-bold tracking-wide uppercase">
                   July 25, 2018
                 </span>
                 <h3 className="text-lg font-semibold">
@@ -185,7 +185,7 @@ export default function Home() {
             </div>
             <div className="flex w-full p-6 lg:w-1/3">
               <div className="p-4 rounded-lg bg-night-600">
-                <span className="inline-block mb-2 text-xs font-bold tracking-wide">
+                <span className="inline-block mb-2 text-xs font-bold tracking-wide uppercase">
                   July 17, 2018
                 </span>
                 <h3 className="text-lg font-semibold">
