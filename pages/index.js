@@ -98,6 +98,127 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="mt-20">
+          {/* Heading */}
+          <div className="flex items-center justify-between">
+            <h3 className="text-xl font-semibold lg:text-2xl">Blogs</h3>
+            <span className="flex-1 h-px mx-4 bg-white bg-opacity-25"></span>
+            <span className="flex items-center justify-center w-10 h-10 bg-opacity-25 rounded-lg lg:w-12 lg:h-12 bg-night-800">
+              <svg
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-6 h-6 text-white text-opacity-25 lg:w-8 lg:h-8"
+              >
+                <path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z" />
+              </svg>
+            </span>
+          </div>
+          {/* Blog Posts List */}
+          <div className="flex flex-wrap -mx-6">
+            <div className="flex w-full p-6 lg:w-1/3">
+              <div className="p-4 rounded-lg bg-night-600">
+                <span className="inline-block mb-2 text-xs font-bold tracking-wide">
+                  Apr 12, 2019
+                </span>
+                <h3 className="text-lg font-semibold">
+                  TailwindCSS: Easy UI development
+                </h3>
+                <p className="mt-3 text-night-300">
+                  How tailwindcss changed how I design websites and improved my
+                  productivity.
+                </p>
+                <a
+                  href="https://nowandme.com"
+                  className="inline-flex items-center mt-6 leading-6 border-b border-transparent hover:border-gray-500"
+                  target="_blank"
+                >
+                  Read more
+                  <svg
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    className="w-4 h-4 ml-1"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div className="flex w-full p-6 lg:w-1/3">
+              <div className="p-4 rounded-lg bg-night-600">
+                <span className="inline-block mb-2 text-xs font-bold tracking-wide">
+                  July 25, 2018
+                </span>
+                <h3 className="text-lg font-semibold">
+                  UI Design Guide for Non-Designers
+                </h3>
+                <p className="mt-3 text-night-300">
+                  When we think about UI design, we think of about some fancy
+                  colors, styles, and layouts...
+                </p>
+                <a
+                  href="https://nowandme.com"
+                  className="inline-flex items-center mt-6 leading-6 border-b border-transparent hover:border-gray-500"
+                  target="_blank"
+                >
+                  Read more
+                  <svg
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    className="w-4 h-4 ml-1"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div className="flex w-full p-6 lg:w-1/3">
+              <div className="p-4 rounded-lg bg-night-600">
+                <span className="inline-block mb-2 text-xs font-bold tracking-wide">
+                  July 17, 2018
+                </span>
+                <h3 className="text-lg font-semibold">
+                  Intro to Machine Learning
+                </h3>
+                <p className="mt-3 text-night-300">
+                  Linear regression is a very simple approach for supervised
+                  learning to predict real-world values.
+                </p>
+                <a
+                  href="https://nowandme.com"
+                  className="inline-flex items-center mt-6 leading-6 border-b border-transparent hover:border-gray-500"
+                  target="_blank"
+                >
+                  Read more
+                  <svg
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    className="w-4 h-4 ml-1"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   )
