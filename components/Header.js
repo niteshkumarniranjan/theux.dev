@@ -53,16 +53,9 @@ export default function Header() {
   }, [])
 
   return (
-    <header
-      className={`${
-        scrollPosition > 0 ? "border-transparent-1" : ""
-      } fixed inset-x-0 top-0 z-10 border-b border-transparent px-6`}
-      style={{ backdropFilter: "blur(5px)" }}
-    >
+    <header className="fixed inset-x-0 top-0 z-10 px-6 border-b border-transparent-1 bg-pattern bg-night-700">
       <div
-        className={`flex items-center justify-between py-8 mx-auto max-w-7xl transition-all duration-200 ${
-          scrollPosition < 10 ? "lg:pt-16" : ""
-        }`}
+        className={`flex items-center justify-between py-8 mx-auto max-w-7xl transition-all duration-200`}
       >
         <Link href="/">
           <a>

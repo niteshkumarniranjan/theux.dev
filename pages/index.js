@@ -13,8 +13,8 @@ export default function Home() {
         >
           {/* Intro */}
           <div className="w-full lg:w-3/5 lg:pr-24">
-            <h1 className="text-2xl font-bold leading-relaxed lg:text-4xl">
-              👋 &nbsp;Hey there,
+            <h1 className="text-2xl font-semibold leading-relaxed lg:text-4xl">
+              Hey there &nbsp;👋
               <br />
               my name is Nitesh Kumar Niranjan.
               <br />
@@ -45,10 +45,11 @@ export default function Home() {
             </div>
           </div>
         </section>
+        {/* About */}
         <section className="mt-20">
           {/* Heading */}
           <div className="flex items-center justify-between">
-            <h3 className="text-xl font-semibold lg:text-2xl">Projects</h3>
+            <h3 className="text-xl font-semibold lg:text-2xl">About Me</h3>
             <span className="flex-1 h-px mx-4 bg-white bg-opacity-25"></span>
             <span className="flex items-center justify-center w-10 h-10 bg-opacity-25 rounded-lg lg:w-12 lg:h-12 bg-night-800">
               <svg
@@ -57,6 +58,37 @@ export default function Home() {
                 viewBox="0 0 26 26"
               >
                 <path d="M9.296 2.048l4.272 8.4L17.696 2l3.312 1.776-5.808 8.112 9.744-.72v3.888l-9.456-.768 5.568 7.728-3.216 1.872-4.464-8.592-4.224 8.592-3.456-1.872 5.808-7.728L2 15.056v-3.888l9.504.816-5.52-8.064 3.312-1.872z" />
+              </svg>
+            </span>
+          </div>
+          {/* Description */}
+          <div className="mt-4">
+            <div className="w-full ml-auto md:max-w-sm">
+              <img
+                className="rounded-lg"
+                src={require("../assets/imgs/me.jpg")}
+                alt="Nitesh Kumar Niranjan"
+              />
+            </div>
+          </div>
+        </section>
+        {/* Projects */}
+        <section className="mt-20">
+          {/* Heading */}
+          <div className="flex items-center justify-between">
+            <h3 className="text-xl font-semibold lg:text-2xl">Projects</h3>
+            <span className="flex-1 h-px mx-4 bg-white bg-opacity-25"></span>
+            <span className="flex items-center justify-center w-10 h-10 bg-opacity-25 rounded-lg lg:w-12 lg:h-12 bg-night-800">
+              <svg
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="w-6 h-6 text-white text-opacity-25 lg:w-8 lg:h-8"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M7 2a1 1 0 00-.707 1.707L7 4.414v3.758a1 1 0 01-.293.707l-4 4C.817 14.769 2.156 18 4.828 18h10.343c2.673 0 4.012-3.231 2.122-5.121l-4-4A1 1 0 0113 8.172V4.414l.707-.707A1 1 0 0013 2H7zm2 6.172V4h2v4.172a3 3 0 00.879 2.12l1.027 1.028a4 4 0 00-2.171.102l-.47.156a4 4 0 01-2.53 0l-.563-.187a1.993 1.993 0 00-.114-.035l1.063-1.063A3 3 0 009 8.172z"
+                  clipRule="evenodd"
+                />
               </svg>
             </span>
           </div>
@@ -72,7 +104,7 @@ export default function Home() {
               <div className="ml-4">
                 <a
                   href="https://nowandme.com"
-                  className="inline-flex items-center leading-6 border-b border-transparent hover:border-gray-500"
+                  className="inline-flex items-center leading-6 link"
                   target="_blank"
                 >
                   <h3 className="font-medium lg:text-xl">Now&Me</h3>
@@ -98,6 +130,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        {/* Blogs */}
         <section className="mt-20">
           {/* Heading */}
           <div className="flex items-center justify-between">
@@ -129,7 +162,7 @@ export default function Home() {
                 </p>
                 <a
                   href="https://nowandme.com"
-                  className="inline-flex items-center mt-6 leading-6 border-b border-transparent hover:border-gray-500"
+                  className="inline-flex items-center mt-6 leading-6 link"
                   target="_blank"
                 >
                   Read more
@@ -163,7 +196,7 @@ export default function Home() {
                 </p>
                 <a
                   href="https://nowandme.com"
-                  className="inline-flex items-center mt-6 leading-6 border-b border-transparent hover:border-gray-500"
+                  className="inline-flex items-center mt-6 leading-6 link"
                   target="_blank"
                 >
                   Read more
@@ -197,7 +230,7 @@ export default function Home() {
                 </p>
                 <a
                   href="https://nowandme.com"
-                  className="inline-flex items-center mt-6 leading-6 border-b border-transparent hover:border-gray-500"
+                  className="inline-flex items-center mt-6 leading-6 link"
                   target="_blank"
                 >
                   Read more

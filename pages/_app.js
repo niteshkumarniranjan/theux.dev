@@ -7,7 +7,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+          rel="stylesheet"
+        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -35,7 +38,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="theme-color" content="#121212" />
       </Head>
-      <div className="flex flex-col min-h-screen font-sans antialiased text-white bg-night-700">
+      <div className="flex flex-col min-h-screen font-sans antialiased text-white bg-night-700 bg-pattern">
         <Header />
         <main className="flex-1 px-6 pb-10" style={{ paddingTop: 128 }}>
           <Component {...pageProps} />

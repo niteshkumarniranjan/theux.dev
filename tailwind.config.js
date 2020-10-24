@@ -12,7 +12,7 @@ module.exports = {
         night: {
           300: "#b5b5b5",
           600: "#171717",
-          700: "#121212",
+          700: "#0f131a",
           800: "#0a0a0a",
         },
         pink: {
@@ -20,7 +20,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        sans: ["IBM Plex Sans", ...defaultTheme.fontFamily.sans],
       },
     },
   },
