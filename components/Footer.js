@@ -66,32 +66,40 @@ export default function Footer() {
     <footer className="px-6 py-8">
       <div className="mx-auto max-w-7xl">
         <div className="flex items-center justify-center py-6 space-x-6">
-          <Link href="#">
+          <Link href="https://twitter.com/niranjannitesh">
             <a
+              target="_blank"
+              rel="nofollow"
               className="p-2.5 rounded-full transition-all duration-100 ease-in hover:bg-twitter"
               style={styles.twitter}
             >
               <TwitterIcon />
             </a>
           </Link>
-          <Link href="#">
+          <Link href="https://www.instagram.com/theux.dev">
             <a
+              target="_blank"
+              rel="nofollow"
               className="p-2.5 rounded-full transition-all duration-100 ease-in hover:bg-insta"
               style={styles.insta}
             >
               <InstaIcon />
             </a>
           </Link>
-          <Link href="#">
+          <Link href="https://dribbble.com/niteshkumarniranjan">
             <a
+              target="_blank"
+              rel="nofollow"
               className="p-2.5 rounded-full transition-all duration-100 ease-in hover:bg-dribble"
               style={styles.dribble}
             >
               <DribbleIcon />
             </a>
           </Link>
-          <Link href="#">
+          <Link href="https://github.com/niteshkumarniranjan">
             <a
+              target="_blank"
+              rel="nofollow"
               className="p-2.5 rounded-full transition-all duration-100 ease-in hover:bg-github"
               style={styles.github}
             >

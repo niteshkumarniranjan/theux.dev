@@ -62,8 +62,24 @@ export default function Home() {
             </span>
           </div>
           {/* Description */}
-          <div className="mt-4">
-            <div className="w-full ml-auto md:max-w-sm">
+          <div className="flex flex-col-reverse items-center justify-between mt-4 leading-relaxed lg:flex-row">
+            <div className="mt-8 text-lg lg:pr-28 lg:mt-0">
+              Inspired by movies and passion for tech I started coding when I
+              was 12. <br /> I also like to do UI Design and sometimes drawing.
+              Being a shy child I never shared any personal projects but I have
+              tried my hands on Game Development, Mobile App Development,
+              Ethical Hacking, Illustration and Machine Learning, I still do
+              these things when I get chance to explore.
+              <br />
+              <br />
+              Apart from tech I enjoy watching movies and reading philosophy
+              books. Though I haven't travelled much, I like to travel.
+              <br />
+              So, basically with given right amount of time and resources I can
+              do <b>almost</b> everything.
+              <br />I have built this website to share my work and learning.
+            </div>
+            <div className="w-full md:max-w-sm">
               <img
                 className="rounded-lg"
                 src={require("../assets/imgs/me.jpg")}
@@ -94,7 +110,7 @@ export default function Home() {
           </div>
           {/* Projects List */}
           <div className="mt-4">
-            <div className="flex items-start p-4 rounded-lg lg:items-center bg-night-600">
+            <div className="flex items-start p-4 bg-opacity-50 rounded-lg lg:items-center bg-night-600">
               <div className="flex items-center justify-center flex-shrink-0 w-20 h-20 p-1 bg-white border rounded">
                 <img
                   src="https://res.cloudinary.com/nowandme/image/upload/v1591626087/nowandme_logo_wqcnjb.png"
@@ -149,7 +165,7 @@ export default function Home() {
           {/* Blog Posts List */}
           <div className="flex flex-wrap -mx-6">
             <div className="flex w-full p-6 lg:w-1/3">
-              <div className="p-4 rounded-lg bg-night-600">
+              <div className="p-4 bg-opacity-50 rounded-lg bg-night-600">
                 <span className="inline-block mb-2 text-xs font-bold tracking-wide uppercase">
                   Apr 12, 2019
                 </span>
@@ -183,7 +199,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex w-full p-6 lg:w-1/3">
-              <div className="p-4 rounded-lg bg-night-600">
+              <div className="p-4 bg-opacity-50 rounded-lg bg-night-600">
                 <span className="inline-block mb-2 text-xs font-bold tracking-wide uppercase">
                   July 25, 2018
                 </span>
@@ -217,7 +233,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex w-full p-6 lg:w-1/3">
-              <div className="p-4 rounded-lg bg-night-600">
+              <div className="p-4 bg-opacity-50 rounded-lg bg-night-600">
                 <span className="inline-block mb-2 text-xs font-bold tracking-wide uppercase">
                   July 17, 2018
                 </span>
