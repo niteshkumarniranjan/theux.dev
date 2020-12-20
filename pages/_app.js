@@ -7,6 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <meta charset="utf-8" />
         <link
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap"
           rel="stylesheet"

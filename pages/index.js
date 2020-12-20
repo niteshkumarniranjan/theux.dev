@@ -76,7 +76,7 @@ export default function Home() {
               books. Though I haven't travelled much, I like to travel.
               <br />
               So, basically with given right amount of time and resources I can
-              do <b>almost</b> everything.
+              do <b>almost</b> everything , or at least try to.
               <br />I have built this website to share my work and learning.
             </div>
             <div className="w-full md:max-w-sm">
@@ -177,7 +177,8 @@ export default function Home() {
                   productivity.
                 </p>
                 <a
-                  href="https://nowandme.com"
+                  rel="nofollow"
+                  href="https://medium.com/@niranjannitesh/tailwindcss-easy-ui-development-c369c0cb218b"
                   className="inline-flex items-center mt-6 leading-6 link"
                   target="_blank"
                 >
@@ -211,7 +212,8 @@ export default function Home() {
                   colors, styles, and layouts...
                 </p>
                 <a
-                  href="https://nowandme.com"
+                  rel="nofollow"
+                  href="https://blog.prototypr.io/ui-design-guide-for-non-designers-beginners-ea394f3d9e41"
                   className="inline-flex items-center mt-6 leading-6 link"
                   target="_blank"
                 >
@@ -245,7 +247,8 @@ export default function Home() {
                   learning to predict real-world values.
                 </p>
                 <a
-                  href="https://nowandme.com"
+                  rel="nofollow"
+                  href="https://blog.usejournal.com/intro-to-machine-learning-with-linear-regression-the-easy-way-c45e63557a1a"
                   className="inline-flex items-center mt-6 leading-6 link"
                   target="_blank"
                 >
