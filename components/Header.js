@@ -55,7 +55,7 @@ export default function Header() {
   return (
     <header className="fixed inset-x-0 top-0 z-10 px-6 border-b border-transparent-1 bg-pattern bg-night-700">
       <div
-        className={`flex items-center justify-between py-8 mx-auto max-w-7xl transition-all duration-200`}
+        className={`flex items-center justify-between py-5 md:py-6 lg:py-8 mx-auto max-w-7xl transition-all duration-200`}
       >
         <Link href="/">
           <a>
