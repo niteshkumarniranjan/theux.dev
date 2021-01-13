@@ -5,7 +5,7 @@ export default function ContactPage() {
     <Head>
       <title>Contact - theux.dev</title>
     </Head>
-    <main className="mx-auto max-w-7xl">
+    <main className="py-8 mx-auto max-w-7xl">
       <p className="mb-5">
         Get in touch.
       </p>

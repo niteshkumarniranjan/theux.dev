@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <link
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap"
           rel="stylesheet"
@@ -41,7 +41,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <div className="flex flex-col min-h-screen font-sans antialiased text-white bg-night-700 bg-pattern">
         <Header />
-        <main className="flex-1 px-6 pb-10" style={{ paddingTop: 128 }}>
+        <main className="flex-1 px-6 pb-10" style={{ paddingTop: 85 }}>
           <Component {...pageProps} />
         </main>
         <Footer />

@@ -8,14 +8,21 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "9.5.2",
+    "@tailwindcss/typography": "^0.3.1",
+    "autoprefixer": "^10.2.1",
+    "gray-matter": "^4.0.2",
+    "marked": "^1.2.7",
+    "next": "^10.0.5",
     "next-images": "^1.4.1",
+    "postcss": "^8.2.4",
+    "prettier": "^2.2.1",
+    "prism-react-renderer": "^1.1.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-transition-group": "^4.4.1"
   },
   "devDependencies": {
     "@tailwindcss/ui": "^0.5.0",
-    "tailwindcss": "^1.7.3"
+    "tailwindcss": "^2.0.2"
   }
 }

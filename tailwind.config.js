@@ -23,11 +23,21 @@ module.exports = {
       fontFamily: {
         sans: ["IBM Plex Sans", ...defaultTheme.fontFamily.sans],
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            color: '#fff',
+            blockquote: {
+              color: '#fff'
+            }
+          }
+        }
+      }
     },
   },
   variants: {
     scale: ["responsive", "hover", "focus", "active"],
     textOpacity: ["responsive", "hover", "focus", "group-hover"],
   },
-  plugins: [require("@tailwindcss/ui")],
+  plugins: [require('@tailwindcss/typography'),],
 }

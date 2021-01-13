@@ -13,7 +13,7 @@ export default function Home() {
         >
           {/* Intro */}
           <div className="w-full lg:w-3/5 lg:pr-24">
-            <h1 className="text-2xl font-semibold leading-relaxed lg:text-4xl">
+            <h1 className="text-2xl font-semibold leading-relaxed lg:text-4xl lg:leading-relaxed">
               Hey there &nbsp;👋
               <br />
               my name is Nitesh Kumar Niranjan.
