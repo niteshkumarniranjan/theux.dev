@@ -1,8 +1,12 @@
 import getJournals from '../../lib/get-journals'
 import Link from 'next/link'
+import Head from 'next/head'
 
 const JournalsPage = props => {
   return <main className="py-10 mx-auto max-w-7xl">
+    <Head>
+      <title>Journal - theux.dev</title>
+    </Head>
     <div className="max-w-3xl mx-auto">
       {
         props.posts.map(({ slug, title, description, ...post }) => {
