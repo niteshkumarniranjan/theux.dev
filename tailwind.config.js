@@ -1,8 +1,8 @@
 const defaultTheme = require("tailwindcss/defaultTheme")
 
 module.exports = {
+  purge: ["./pages/**/*.js", "./components/**/*.js"],
   theme: {
-    purge: ["./pages/**/*.js", "./components/**/*.js"],
     extend: {
       colors: {
         twitter: "rgba(0,145,255,.1)",
