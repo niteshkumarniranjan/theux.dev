@@ -18,7 +18,7 @@ export default function Home() {
               <br />
               my name is Nitesh Kumar Niranjan.
               <br />
-              I'm an 18-year-old{" "}
+              I'm an 19-year-old{" "}
               <strike className="font-normal">
                 designer, developer and tinker
               </strike>{" "}
