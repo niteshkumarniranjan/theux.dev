@@ -21,7 +21,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["IBM Plex Sans", ...defaultTheme.fontFamily.sans],
+        sans: ["Space Grotesk", ...defaultTheme.fontFamily.sans],
       },
       typography: {
         DEFAULT: {

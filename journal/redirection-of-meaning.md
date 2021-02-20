@@ -11,7 +11,7 @@ And, It’s scary to be honest for a while and acknowledge that I am pretty clue
 
 So, sitting and thinking about it I kind of realised whatever that be, whether we like it or not this is the situation we are all in at all times. Feeling lost or confused about what’s to come or where to go.
 Sometimes it’s unclear what’s the right thing to do.
-If there is a right I want to do the right thing but I am not sure if I always have a clear sense of what that means.
+If there is a right thing, I want to do the right thing but I am not sure if I always have a clear sense of what that means.
 
 In a way I kind of wonder where do I stand? I have as long as I remember always hated the feeling of drifting through life of powerlessness. I think a sense of desperation comes out when I feel pinned down or knocked over.
 
